@@ -17,7 +17,7 @@ def hellofs():
         file.close()
         return "<h1 style='color:blue'>Hello There! File created</h1>"
     except Exception as ex:
-        return "<h1 style='color:red'>Hello There! Fiailed to create file </h1>i %s" % ex
+        return "<h1 style='color:red'>Hello There! Fiailed to create file!! </h1>i %s" % ex
 
 
 
