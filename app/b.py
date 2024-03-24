@@ -1,3 +1,3 @@
 this = True
-if this
-  print "hi"
+if this:
+  print("hi")
